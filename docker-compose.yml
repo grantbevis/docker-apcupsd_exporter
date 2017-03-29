@@ -1,0 +1,10 @@
+version: "2"
+services:
+  apcupsd_exporter:
+    image: b3vis/apcupsd_exporter
+    restart: always
+    container_name: apcupsd_exporter
+    environment:
+      - APCUPSDADDR="10.0.0.1:3551"
+    ports:
+      - "9162:9162"

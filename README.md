@@ -7,10 +7,10 @@ apcupsd_exporter is a metrics exporter for [Prometheus](https://prometheus.io/)
 Make sure you set the APCUPSDADDR variable with the details to access your APCUPSD instance
 
 ---
-#### 0.0.1 (2017-03-29)
+#### 0.0.2
 
-Initial release
-
+- 2017-03-29 :: Initial release
+- 2017-12-14 :: Dramatically reduced image size
 ---
 #### Example Run Command
 
